@@ -1,0 +1,424 @@
+body {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.hoca{
+    width: 100vw;
+    height: 100vh;
+    background: url('hoca3.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+
+.cavang1{
+    background-image: url('goldFishSchool.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    overflow: hidden;
+    
+    animation: cavangboi 13s ease-in-out infinite;
+}
+.cavang2{
+    background-image: url('OIP-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    right : 50px;
+    bottom: 55%;
+    overflow: hidden;
+    
+    animation: cavangboi1 10s ease-in-out infinite 1s;
+}
+.cavang3{
+    background-image: url('R-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    right : 90px;
+    bottom: 600px;
+    overflow: hidden;
+    
+    animation: cavangboi1 15s ease-in-out infinite 1.5s;
+}
+@keyframes cavangboi {
+    0%{
+        transform: translateX(0) scaleX(1);
+    }
+    50%{ transform: translateX(900px) 
+        scaleX(1);}
+    51%{ transform: translateX(900px) scaleX(-1);}
+    
+    100%{ 
+        transform: translateX(0) scaleX(-1);
+    }
+}
+@keyframes cavangboi1 {
+    0%{
+        transform: translateX(0) scaleX(1);
+    }
+    50%{ transform: translateX(-900px) 
+        scaleX(1);}
+    51%{ transform: translateX(-900px) scaleX(-1);}
+    
+    100%{ 
+        transform: translateX(0) scaleX(-1);
+    }
+}
+
+.shark1{
+    background-image: url('sharktank-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: -15px;
+    top: 45%;
+    overflow: hidden;
+    
+    animation: sharkswim 10s ease-out infinite 2s;
+}
+@keyframes sharkswim{ 
+    0%{
+        left: -15px;}
+    30%{
+        left: 200px;
+    }
+    70%{
+        left: 900px;
+    }    
+    100%{
+        left: 110%; }
+}
+.vochuoi1{
+    background-image: url('vochuoi-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left: 300px;
+    top: -10%;
+    overflow: hidden;
+    
+    animation: banana 6s  ease-in-out infinite  2s;
+}
+@keyframes banana{
+     0%{ 
+        top:-10%;
+     }
+     50%{
+        top: 45%;
+        opacity: 1.5;
+     }
+     100%{
+        top: 105%;
+        opacity: 0;
+     }
+}
+.meat-mlem{
+    background-image: url('thitlon-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 1000px;
+    top: -10%;
+    overflow: hidden;
+   
+    animation: meat 14s ease-in-out infinite 2s;
+}
+@keyframes meat {
+    0%{ 
+       top:-10%;
+    }
+    50%{
+       top:45%;
+       opacity: 1.5;
+    }
+    100%{
+       top: 105%;
+       opacity: 0 ;
+    }
+}
+.cabeta{
+    background-image: url('1283.png_300-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    right: -10px;
+    bottom: 30px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    animation: cabeta 25s ease-in-out infinite 0.2s;
+}
+@keyframes cabeta{ 
+    0%{
+        right: -10px;
+        bottom: 30px;
+        }    
+    100%{
+        right: 110%;
+        bottom: 110%;  }
+}
+.sua1{
+    background-image: url('sua-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 120px;
+    position: absolute;
+    right: 100px;
+    bottom: 250px;
+    overflow: hidden;
+    
+    animation: consua 7s ease-in-out infinite 0.2s;
+}
+.sua2{
+    background-image: url('sua4-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    right: 90%;
+    bottom: 300px;
+    overflow: hidden;
+    
+    animation: consua 8s ease-in-out infinite 0.1s;
+}
+.sua3{
+    background-image: url('sua123-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 150px;
+    position: absolute;
+    right: 40%;
+    bottom: 400px;
+    overflow: hidden;
+    
+    animation: consua 9s ease-in-out infinite 0.1s;
+}
+.sua4{
+    background-image: url('sua-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 150px;
+    position: absolute;
+    right: 60%;
+    bottom: 500px;
+    overflow: hidden;
+    
+    animation: consua4 9.5s ease-in-out infinite 0.3s;
+}
+@keyframes consua {
+    0%{
+        bottom: 300px;
+    }
+    50% {
+        bottom: 500px;
+    }
+    100%{
+        bottom: 300px;
+    }
+}
+@keyframes consua4 {
+    0%{
+        bottom: 500px;
+    }
+    50% {
+        bottom: 700px;
+    }
+    100%{
+        bottom: 500px;
+    }
+}
+
+.bbnuoc1{
+    
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left: 16%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 0.1s;
+   
+}
+.bbnuoc2{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left:48%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 1s;
+}
+.bbnuoc3{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left: 88%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 2s;
+}
+.bbnuoc4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 55%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 1.5s;
+}
+.bbnuoc5{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 75%;
+    bottom: 0px;
+    overflow: hidden;
+    
+    animation: bochoi 7s linear infinite 0.5s;
+}
+@keyframes bochoi {
+    0%{
+        top: 110%;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        top: 20%;
+        opacity: 0;
+    }
+}
+.bbnuoc6{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 16%;
+    bottom: 30%;
+    overflow: hidden;
+    
+    animation: bochoi1 4s linear infinite ;
+}
+@keyframes bochoi1 {
+    0%{
+        bottom:30%;
+        opacity: 0.5;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 50%;
+        opacity: 0;
+    }
+}
+.bbnuoc7{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 48%;
+    bottom: 75%;
+    overflow: hidden;
+    
+    animation: bochoi2 3s linear infinite ;
+}
+@keyframes bochoi2 {
+    0%{
+        bottom:75%;
+        opacity: 0.5;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 90%;
+        opacity: 0;
+    }
+}
+.bbnuoc8{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 80%;
+    bottom: 50%;
+    overflow: hidden;
+    
+    animation: bochoi3 5s linear infinite 0.5s;
+}
+@keyframes bochoi3 {
+    0%{
+        bottom:50%;
+        opacity: 0.5;
+        
+    }
+    45%{
+        opacity: 1;
+    }
+    100%{
+        bottom: 70%;
+        opacity: 0;
+    }
+}
+.rua{
+    background-image: url('turtle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 170px;
+    position: absolute;
+    right: 90%;
+    bottom: 10%;
+    overflow: hidden;
+    
+    animation: ruabo 30s ease-in-out infinite 0.3s;
+}
+@keyframes ruabo {
+    0%{
+        transform: translateX(0) scaleX(1);
+    }
+    50%{ transform: translateX(990px) 
+        scaleX(1);}
+    51%{ transform: translateX(990px) scaleX(-1);}
+    
+    100%{ 
+        transform: translateX(0) scaleX(-1);
+    }
+}
+.sanho{
+    position: absolute;
+    width:100%;
+    left:0;
+    bottom:0;
+}
+
